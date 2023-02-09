@@ -68,7 +68,7 @@ nav ul li a:hover{
 
 .content{
 	position:absolute;
-	top:50%;
+	top:60%;
 	left:8%;
 	transform: translateY(-50%);
 }
@@ -91,10 +91,37 @@ h4{
 	font-size: 20px;
 }
 
-.newsletter form{
-	width: 380px;
-	max-width: 100%;
+.social-links {
+	width: 580px;
+	max-width: 80%;
 	position: relative;
+	background-color: rgba(245, 245, 245, 0);
+	border: solid;
+	border-width: 2px;
+	border-color: #f9004d;
+	border-radius: 12px;
+	padding: 0em 1em 1em 1em;
+}
+
+.fa {
+	color: rgba(243, 243, 243, 0.859);
+	align-items: center;	
+	display: block;
+	margin-right: 20px;
+	padding: 20px 30px 0 30px;
+
+
+}
+
+#connect-button {
+
+	display:inline-block;
+	border: none;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.499), 0px 0px 5px #858585;
+	padding: 10px 20px ;
+	border-radius: 25px;
+	background-color: #f9004d;
+	color: white;
 }
 
 .newsletter form input:first-child{
