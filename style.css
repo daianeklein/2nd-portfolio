@@ -221,7 +221,7 @@ button:hover{
 
 .title h2{
 	color:white;
-	font-size:75px;
+	font-size:55px;
 	width: 1130px;
 	margin: 30px auto;
 	text-align: center;
@@ -319,6 +319,14 @@ h5{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
+
+.work-experience{
+	background-color: #191919;
+	width: 100%;
+	padding: 100px 0px;
+}
+
+
 
 footer{
 	position:relative;
